@@ -1,9 +1,10 @@
+import Image from "next/image";
 function Subsection5() {
     return (
         <>
             <section className="subsec5-wrapper p-8 flex font-permanent-marker">
                 <div className="container subsec5-content">
-                    <img src="/subsec5.png" />
+                    <Image alt=".." src="/subsec5.png" />
                 </div>
                 <div className="container subsec5-container p-5 flex flex-col mt-48 items-center text-center">
                     <h1 className="text-3xl">Need a home loan?</h1>

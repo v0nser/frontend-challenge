@@ -1,13 +1,14 @@
 import Link from 'next/link';
 import { MdHomeWork } from 'react-icons/md';
-
+import Image from 'next/image';
 function FinalSection() {
   return (
     <>
       <section className="finalSection p-8 flex justify-center font-poppins relative">
         <div className="wrapper rounded-2xl bg-black relative">
           <div className="first-wrapper relative">
-            <img
+            <Image
+            alt=".."
               src="https://images.pexels.com/photos/3075453/pexels-photo-3075453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               className="rounded-2xl"
             />

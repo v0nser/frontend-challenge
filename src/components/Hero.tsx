@@ -36,7 +36,7 @@ function Hero() {
             <div className="hero-content-2 flex">
                 <div className="hero-child-content-2 px-32">
                     <Image alt=".." src="/sparkle.png" />
-                    <p className="text-base w-28">Discover a place you'll love to live.</p>
+                    <p className="text-base w-28">Discover a place you&apos;ll love to live.</p>
                     <p className="bg-black rounded-full w-52 px-2 py-2 mt-10">All Catalog -------&gt;</p>
                 </div>
                 <div className="hero-child-content-2 absolute mt-10 -bottom-0 right-0">
