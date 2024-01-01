@@ -1,3 +1,4 @@
+import Image from "next/image";
 function Subsection3() {
     return (
         <>
@@ -21,9 +22,10 @@ function Subsection3() {
                         </ul>
                     </div>
                     <div className="subsec2-child p-5 relative">
-                        <img
+                        <Image
                             src="https://images.pexels.com/photos/5847577/pexels-photo-5847577.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                             className="rounded-3xl"
+                            alt=".."
                         />
                         <div className="img-content text-black bg-white bg-opacity-80 p-4 rounded-3xl absolute flex flex-col justify-between text-center w-40 h-42 bottom-0 right-0">
                             <div>
