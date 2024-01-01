@@ -4,6 +4,8 @@ import Subsection from '../components/Subsection';
 import Subsection2 from '../components/Subsection2';
 import Subsection3 from '../components/Subsection3';
 import Subsection5 from '../components/Subsection5';
+import FinalSection from '../components/FinalSection';
+
 
 function page() {
   return (
@@ -14,6 +16,7 @@ function page() {
       <Subsection2/>
       <Subsection3/>
       <Subsection5/>
+      <FinalSection/>
     </>
   )
 }

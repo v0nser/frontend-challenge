@@ -17,7 +17,7 @@ const config: Config = {
         '7bb3e8': '#7BB3E8',
       },
       fontFamily: {
-        'permanent-marker': ['Permanent Marker', 'cursive'],
+        'permanent-marker': ['Poppins', 'sans-serif'],
       },
       fontSize: {
         '2xl': '1.563rem',
